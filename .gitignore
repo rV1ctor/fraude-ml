@@ -1,0 +1,7 @@
+# Base de dados: baixar do Kaggle (150 MB, acima do limite do GitHub)
+creditcard.csv
+
+# Ambiente e arquivos gerados
+.venv/
+.ipynb_checkpoints/
+__pycache__/
