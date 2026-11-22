@@ -4,6 +4,10 @@ Projeto de estudo de detecção de fraude em cartão de crédito. O foco não é
 
 **Página interativa:** [rv1ctor.github.io/fraude-ml](https://rv1ctor.github.io/fraude-ml/). Um simulador mostra quantas fraudes cada modelo encontra conforme a equipe revisa mais ou menos transações.
 
+[![Abertura da página Fila de Fraude](imagens/01-abertura.png)](https://rv1ctor.github.io/fraude-ml/)
+
+![Simulador da fila de revisão](imagens/02-simulador.png)
+
 ## Pergunta de negócio
 
 Qual modelo identifica mais fraudes, e maior valor fraudado, dentro da capacidade disponível de revisão?
@@ -38,6 +42,12 @@ Modelo selecionado: **Random Forest**.
 | Valor fraudado sinalizado | 61,5% |
 
 A AP da validação foi otimista. A média nas janelas sucessivas é praticamente igual à do período final, e esse é o desempenho típico esperado.
+
+![Resultado no período final](imagens/04-resultado.png)
+
+![Estabilidade em janelas sucessivas](imagens/05-estabilidade.png)
+
+Outras capturas da página estão na pasta [`imagens/`](imagens/).
 
 ## Limitações
 
