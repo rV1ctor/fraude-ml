@@ -2,7 +2,7 @@
 
 Projeto de estudo de detecção de fraude em cartão de crédito. O foco não é só a métrica do modelo, mas a decisão que ele apoia: **quais transações entram na fila de revisão de uma equipe com capacidade limitada**.
 
-**Página interativa:** [`docs/index.html`](docs/index.html). Um simulador mostra quantas fraudes cada modelo encontra conforme a equipe revisa mais ou menos transações.
+**Página interativa:** [rv1ctor.github.io/fraude-ml](https://rv1ctor.github.io/fraude-ml/). Um simulador mostra quantas fraudes cada modelo encontra conforme a equipe revisa mais ou menos transações.
 
 ## Pergunta de negócio
 
